@@ -1,9 +1,5 @@
 package com.keatssalazar.groupchat;
 
-/**
- * Created by jagdish on 22/12/17.
- */
-
 public class InstantMessage {
 
     private String message;
