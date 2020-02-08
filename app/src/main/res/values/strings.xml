@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GroupChat</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="regiater">REGISTRATION</string>
+    <string name="enter_email">Enter email..</string>
+    <string name="enter_password">Enter password..</string>
+    <string name="helloworld">HelloWorld</string>
+    <string name="enter_message_here">Type a message</string>
+    <string name="todo">todo</string>
+    <string name="hello">Hello!</string>
+    <string name="sign_up">sign up</string>
+    <string name="error_invalid_password">error</string>
+    <string name="error_field_required">field reqioued</string>
+    <string name="error_invalid_email">invalid emial</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_pass">Enter pass</string>
+    <string name="agin_password">agin password</string>
+    <string name="message">Message</string>
+    <string name="sender_name">Sender Name</string>
+    <string name="datedate">datedate</string>
+</resources>

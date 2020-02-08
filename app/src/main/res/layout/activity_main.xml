@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/login_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_email"
+            android:textColor="@color/green"
+            android:textColorHint="@color/White"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textIsSelectable="false"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_password"
+            android:textColor="@color/green"
+            android:textColorHint="@color/White"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textIsSelectable="false"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/login_sign_in_button"
+        style="?android:textAppearanceMedium"
+        android:layout_margin="10dp"
+        android:background="@color/green"
+        android:textColor="@color/White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/sign_in"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/login_register_button"
+        style="?android:textAppearanceMedium"
+        android:background="@color/White"
+        android:textColor="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/regiater"
+        android:textStyle="bold"/>
+
+</LinearLayout>
